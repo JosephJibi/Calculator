@@ -1,0 +1,39 @@
+.calc
+{
+    width: 400px;
+    height: 600px;
+    background: grey;
+    margin-left: 400px;
+}
+#screen
+{
+    width: 80%;
+    margin-left: 47px;
+    height: 40px;
+    margin-top: 30px;
+    pointer-events: none;              /*to remove the option of typing.Here <input> is use and its type is text so,the option of entering value is at there 
+                                       we don't need it. we created <input> to display the output/entered value by using buttons.so,we don't anyone to type 
+                                       of change the content at there.therefor,we use 'pointer-events: none;'at here.The pointer-events property defines whether
+                                        or not an element reacts to pointer events.*/
+}
+.row
+{
+    padding: 30px;
+
+}
+.btn
+{
+    width: 60px;
+    height: 45px;
+    margin-left: 18px;
+    margin-top: 8px;
+    background: bisque;
+}
+.clear
+{
+    width: 60px;
+    height: 45px;
+    margin-left: 47px;
+    margin-top: 25px;
+    background: bisque;
+}
